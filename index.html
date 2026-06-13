@@ -3,38 +3,50 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="src/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wdth,wght@0,75..100,100..900;1,75..100,100..900&display=swap"
+      rel="stylesheet"
+    />
     <title>La Météo</title>
   </head>
   <body>
-    <header>
-      <form>
-        <input type="search" placeholder="Enter a city..." required />
-
-        <input type="submit" value="Search" />
-      </form>
-    </header>
-    <main>
-      <div>
-        <h1>Paris</h1>
-        <p>
-          Monday 21:13, clear sky
+    <div class="weather-app">
+      <header>
+        <form>
           <br />
-          Humidity: 43%, Wind: 4.12km/h
-        </p>
-      </div>
-      <div>⛅ 12</div>
-    </main>
+          <input type="search" placeholder="Enter a city..." required />
 
-    <footer>
-      Coded by
-      <a href="https://github.com/heyOatmilk" target="_blank">heyOatmilk</a>, is
-      <a href="https://github.com/heyOatmilk/La_Meteo" target="_blank"
-        >open-sourced on GitHub</a
-      >
-      and
-      <a href="https://la-meteo-forecast.netlify.app/" target="_blank">
-        hosted on Netlify</a
-      >
-    </footer>
+          <input type="submit" value="Search" />
+        </form>
+      </header>
+
+      <main>
+        <div>
+          <h1>Paris</h1>
+          <p>
+            Monday 21:13, clear sky
+            <br />
+            Humidity: 43%, Wind: 4.12km/h
+          </p>
+        </div>
+        <div>⛅ 12</div>
+      </main>
+
+      <footer>
+        Coded by
+        <a href="https://github.com/heyOatmilk" target="_blank">heyOatmilk</a>,
+        is
+        <a href="https://github.com/heyOatmilk/La_Meteo" target="_blank"
+          >open-sourced on GitHub</a
+        >
+        and
+        <a href="https://la-meteo-forecast.netlify.app/" target="_blank">
+          hosted on Netlify</a
+        >
+      </footer>
+    </div>
   </body>
 </html>
